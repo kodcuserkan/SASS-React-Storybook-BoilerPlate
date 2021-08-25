@@ -8,7 +8,7 @@ import SecondaryBtn from './Secondary';
 
 export default {
   component: SecondaryBtn,
-  title: 'Components/SecondaryBtn',
+  title: 'components/buttons',
 } as Meta;
 
-export const Primary: React.VFC<{}> = () => <SecondaryBtn name="test" onClickFunc={() => console.log("TEst click")}/>;
+export const Secondary: React.VFC<{}> = () => <SecondaryBtn name="test" onClickFunc={() => console.log("Test SecondaryBtn")}/>;

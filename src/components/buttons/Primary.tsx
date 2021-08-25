@@ -1,3 +1,5 @@
+import './buttons.scss'
+
 interface Props {
     onClickFunc: () => void,
     name: string

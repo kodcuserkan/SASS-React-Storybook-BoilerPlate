@@ -6,9 +6,9 @@ import Secondary from './components/buttons/Secondary';
 function App() {
   return (
     <div className="App">
-      Hello world
-      <Primary name="Send Mail" onClickFunc={() => console.log("Primary test")} />
-      <Secondary name="Send Mail" onClickFunc={() => console.log("Secondary test")} />
+      <h1 className="welcome">Welcome</h1>
+      <Primary name="Primary Button" onClickFunc={() => console.log("Primary test")} />
+      <Secondary name="Secondary Button" onClickFunc={() => console.log("Secondary test")} />
     </div>
   );
 }

@@ -1,0 +1,25 @@
+/*
+* Variables starts
+*/
+$primary-bg: rgb(27, 20, 12);
+/*
+* Variables ends
+*/
+
+/*
+* Components starts
+*/
+@import "../src/components/buttons/buttons.scss";
+/*
+* Components ends
+*/
+
+#root {
+  width: 100%;
+  min-height: 100%;
+} 
+
+.App {
+  background-color: $primary-bg;
+  height: 100%;
+} 

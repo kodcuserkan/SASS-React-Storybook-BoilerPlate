@@ -1,0 +1,32 @@
+$base-btn: #5496d3;
+$primary-btn: #c6538c;
+$secondary-btn: #faea8d;
+
+.btn {
+    width: 6rem;
+    border-radius: 6px;
+    border: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: invert;
+    cursor: pointer;
+    background-color: $base-btn;
+    &:hover {
+        opacity: 0.8;
+        transform: scale(1.03);
+    }
+}
+
+.btn-primary {
+    background-color: $primary-btn;
+    color: azure;
+    font-weight: 700;
+}
+
+.btn-secondary {
+    background-color: $secondary-btn;
+    color: azure;
+    font-weight: 700;
+}

@@ -1,4 +1,5 @@
 // Button.stories.ts | Button.stories.tsx
+import './buttons.scss'
 
 import React from 'react'
 

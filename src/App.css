@@ -1,10 +1,4 @@
 /*
-* Variables starts
-*/
-/*
-* Variables ends
-*/
-/*
 * Components starts
 */
 .btn {
@@ -18,19 +12,22 @@
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
-  background-color: #5496d3; }
+  background-color: #5496d3;
+  transition: all 0.1s ease-in-out; }
   .btn:hover {
     opacity: 0.8;
     transform: scale(1.03); }
+  .btn:active {
+    opacity: 1; }
 
 .btn-primary {
   background-color: #c6538c;
-  color: azure;
+  color: #f7f1e6;
   font-weight: 700; }
 
 .btn-secondary {
   background-color: #f1c879;
-  color: azure;
+  color: #f7f1e6;
   font-weight: 700; }
 
 /*
@@ -43,7 +40,7 @@
   height: 100%; }
 
 .App {
-  background-color: #1b140c;
+  background-color: #2f301b;
   width: 100%;
   min-height: 100%;
   display: flex;

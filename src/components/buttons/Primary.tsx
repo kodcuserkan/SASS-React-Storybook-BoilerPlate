@@ -1,4 +1,4 @@
-import './buttons.scss'
+// import './buttons.scss'
 
 interface Props {
     onClickFunc: () => void,

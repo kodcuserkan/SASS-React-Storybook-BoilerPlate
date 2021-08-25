@@ -9,4 +9,4 @@ export default {
   title: 'components/navbar/navbar',
 } as Meta;
 
-export const Primary: React.VFC<{}> = () => <Navbar/>;
+export const NavbarComponent: React.VFC<{}> = () => <Navbar/>;
